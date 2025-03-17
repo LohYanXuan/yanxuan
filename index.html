@@ -6,45 +6,61 @@
     <title>My Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
             text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
         }
         h1 {
-            color: #333;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
         }
         ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         li {
-            margin: 10px 0;
+            margin: 15px;
         }
         a {
             text-decoration: none;
-            color: #007BFF;
-            font-size: 18px;
+            color: #fff;
+            font-size: 20px;
             font-weight: bold;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+            display: inline-block;
         }
         a:hover {
-            color: #0056b3;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to My Portfolio</h1>
-        <p>Check out my projects below:</p>
+        <p>Explore some of my featured projects below:</p>
         <ul>
             <li><a href="https://www.pepnco.com.sg/" target="_blank">Pepnco</a></li>
             <li><a href="https://htadvertising.com.sg/product/transparent-lcd-glass-showcase" target="_blank">HT Advertising</a></li>
@@ -54,3 +70,4 @@
     </div>
 </body>
 </html>
+
